@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- Fundo -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Seção "Antes" -->
+  <rect x="20" y="20" width="360" height="40" rx="5" fill="#ffcccc"/>
+  <text x="200" y="45" font-family="Arial" font-size="24" text-anchor="middle" fill="#cc0000">ANTES</text>
+  
+  <!-- Rosto com rugas (antes) -->
+  <rect x="50" y="80" width="300" height="260" rx="10" fill="#f8f8ff"/>
+  <ellipse cx="200" cy="180" rx="120" ry="140" fill="#ffd5c8" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- Olhos -->
+  <ellipse cx="160" cy="150" rx="15" ry="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <ellipse cx="240" cy="150" rx="15" ry="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <circle cx="160" cy="150" r="5" fill="#5b3000"/>
+  <circle cx="240" cy="150" r="5" fill="#5b3000"/>
+  
+  <!-- Boca -->
+  <path d="M160,220 Q200,240 240,220" stroke="#cc6666" stroke-width="2" fill="none"/>
+  
+  <!-- Rugas -->
+  <path d="M120,120 Q200,110 280,120" stroke="#cccccc" stroke-width="2" fill="none"/>
+  <path d="M130,130 Q200,120 270,130" stroke="#cccccc" stroke-width="2" fill="none"/>
+  <path d="M170,160 L150,165" stroke="#cccccc" stroke-width="1" fill="none"/>
+  <path d="M230,160 L250,165" stroke="#cccccc" stroke-width="1" fill="none"/>
+  
+  <!-- Texto explicativo -->
+  <text x="200" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Rugas de expressão visíveis</text>
+  
+  <!-- Seção "Depois" -->
+  <rect x="420" y="20" width="360" height="40" rx="5" fill="#ccffcc"/>
+  <text x="600" y="45" font-family="Arial" font-size="24" text-anchor="middle" fill="#00aa00">DEPOIS</text>
+  
+  <!-- Rosto sem rugas (depois) -->
+  <rect x="450" y="80" width="300" height="260" rx="10" fill="#f8f8ff"/>
+  <ellipse cx="600" cy="180" rx="120" ry="140" fill="#ffd5c8" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- Olhos -->
+  <ellipse cx="560" cy="150" rx="15" ry="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <ellipse cx="640" cy="150" rx="15" ry="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <circle cx="560" cy="150" r="5" fill="#5b3000"/>
+  <circle cx="640" cy="150" r="5" fill="#5b3000"/>
+  
+  <!-- Boca -->
+  <path d="M560,220 Q600,240 640,220" stroke="#cc6666" stroke-width="2" fill="none"/>
+  
+  <!-- Texto explicativo -->
+  <text x="600" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Pele mais lisa e jovem</text>
+  
+  <!-- Título -->
+  <text x="400" y="380" font-family="Arial" font-size="18" text-anchor="middle" fill="#333333">Aplicação de Botox - Antes e Depois</text>
+</svg>

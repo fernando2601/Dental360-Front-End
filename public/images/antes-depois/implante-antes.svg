@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="330" viewBox="0 0 340 330">
+  <!-- Fundo -->
+  <rect width="340" height="330" fill="#fff8f8" rx="10" ry="10"/>
+  
+  <!-- Cabeçalho "ANTES" -->
+  <rect x="0" y="0" width="340" height="40" fill="#ffcdd2" rx="10" ry="10"/>
+  <text x="170" y="27" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#d50000">ANTES</text>
+  
+  <!-- Gengivas e dentes -->
+  <rect x="100" y="110" width="140" height="60" rx="10" ry="10" fill="#ffcdd2"/>
+  
+  <!-- Dentes (com um dente faltando) -->
+  <rect x="110" y="80" width="20" height="30" rx="3" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- espaço de dente ausente -->
+  <rect x="160" y="80" width="20" height="30" rx="3" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="185" y="80" width="20" height="30" rx="3" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="210" y="80" width="20" height="30" rx="3" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Destaque para o dente ausente -->
+  <circle cx="145" cy="95" r="20" fill="none" stroke="#ef5350" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="145" y="100" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#d32f2f">?</text>
+  
+  <!-- Título -->
+  <text x="170" y="200" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#d32f2f">Dente Ausente</text>
+  
+  <!-- Descrição -->
+  <text x="170" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">Espaço vazio na arcada dentária causando</text>
+  <text x="170" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">dificuldades para mastigar e</text>
+  <text x="170" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">constrangimento social.</text>
+</svg>

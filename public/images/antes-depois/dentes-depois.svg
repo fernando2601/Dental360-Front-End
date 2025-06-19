@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="330" viewBox="0 0 340 330">
+  <!-- Fundo -->
+  <rect width="340" height="330" fill="#f8fff8" rx="10" ry="10"/>
+  
+  <!-- Cabeçalho "DEPOIS" -->
+  <rect x="0" y="0" width="340" height="40" fill="#c8e6c9" rx="10" ry="10"/>
+  <text x="170" y="27" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2e7d32">DEPOIS</text>
+  
+  <!-- Círculo com ícone de estrela -->
+  <circle cx="170" cy="120" r="50" fill="#e8f5e9"/>
+  <path d="M170,95 L178,112 L197,112 L182,123 L187,140 L170,130 L153,140 L158,123 L143,112 L162,112 Z" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/>
+  
+  <!-- Título -->
+  <text x="170" y="200" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#2e7d32">Sorriso Perfeitamente Alinhado</text>
+  
+  <!-- Descrição -->
+  <text x="170" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">Sorriso perfeitamente alinhado e branco</text>
+  <text x="170" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">com lentes de contato dental ultrafinas e</text>
+  <text x="170" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">resistentes.</text>
+</svg>

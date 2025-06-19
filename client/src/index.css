@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personalização do calendário de agendamentos */
+.calendar-custom .fc-day-today {
+  background-color: rgba(240, 245, 255, 0.6) !important;
+}
+
+.calendar-custom .fc-col-header-cell {
+  background-color: #f0f5ff;
+  padding: 8px 0;
+}
+
+.calendar-custom .fc-col-header-cell-cushion {
+  font-weight: 600;
+  color: #4b5563;
+  text-decoration: none !important;
+  padding: 8px;
+}
+
+.calendar-custom .fc-timegrid-slot-label {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.calendar-custom .fc-event {
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease;
+  padding: 2px;
+}
+
+.calendar-custom .fc-event:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
+}
+
+.calendar-custom .fc-daygrid-day-top {
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.calendar-custom .fc-daygrid-day-number {
+  font-weight: 500;
+  color: #374151;
+  text-decoration: none;
+}
+
+.calendar-custom .fc-toolbar-title {
+  font-size: 1.25rem !important;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.calendar-custom .fc-button-primary {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+  box-shadow: none !important;
+  font-weight: 500;
+}
+
+.calendar-custom .fc-button-primary:hover {
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+}
+
+/* Estilo para o botão do dropdown de visualização */
+.calendar-custom .fc-viewMenu-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  padding: 6px 12px !important;
+  font-size: 0.875rem !important;
+  border-radius: 6px !important;
+}
+
+/* Deixar números de dias menores */
+.calendar-custom .fc-daygrid-day-number {
+  font-size: 0.8rem !important;
+  padding: 4px !important;
+  opacity: 0.8 !important;
+}
+
+.calendar-custom .fc-col-header-cell-cushion {
+  font-size: 0.85rem !important;
+}
+
+.calendar-custom .fc-timegrid-now-indicator-line {
+  border-color: #ef4444;
+  border-width: 2px;
+}
+
+.calendar-custom .fc-timegrid-now-indicator-arrow {
+  border-color: #ef4444;
+  border-width: 5px;
+}
+
+:root {
+      --background: 0 0% 100%;
+--foreground: 20 14.3% 4.1%;
+--muted: 60 4.8% 95.9%;
+--muted-foreground: 25 5.3% 44.7%;
+--popover: 0 0% 100%;
+--popover-foreground: 20 14.3% 4.1%;
+--card: 0 0% 100%;
+--card-foreground: 20 14.3% 4.1%;
+--border: 20 5.9% 90%;
+--input: 20 5.9% 90%;
+--primary: 215 90% 40%;
+--primary-foreground: 211 100% 99%;
+--secondary: 60 4.8% 95.9%;
+--secondary-foreground: 24 9.8% 10%;
+--accent: 60 4.8% 95.9%;
+--accent-foreground: 24 9.8% 10%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 60 9.1% 97.8%;
+--ring: 20 14.3% 4.1%;
+--radius: 0.5rem;
+  }
+  .dark {
+      --background: 240 10% 3.9%;
+--foreground: 0 0% 98%;
+--muted: 240 3.7% 15.9%;
+--muted-foreground: 240 5% 64.9%;
+--popover: 240 10% 3.9%;
+--popover-foreground: 0 0% 98%;
+--card: 240 10% 3.9%;
+--card-foreground: 0 0% 98%;
+--border: 240 3.7% 15.9%;
+--input: 240 3.7% 15.9%;
+--primary: 215 90% 40%;
+--primary-foreground: 211 100% 99%;
+--secondary: 240 3.7% 15.9%;
+--secondary-foreground: 0 0% 98%;
+--accent: 240 3.7% 15.9%;
+--accent-foreground: 0 0% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 0 0% 98%;
+--ring: 240 4.9% 83.9%;
+--radius: 0.5rem;
+  }
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+

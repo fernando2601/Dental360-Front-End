@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="330" viewBox="0 0 340 330">
+  <!-- Fundo -->
+  <rect width="340" height="330" fill="#f8fff8" rx="10" ry="10"/>
+  
+  <!-- Cabeçalho "DEPOIS" -->
+  <rect x="0" y="0" width="340" height="40" fill="#c8e6c9" rx="10" ry="10"/>
+  <text x="170" y="27" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2e7d32">DEPOIS</text>
+  
+  <!-- Rosto harmonioso -->
+  <ellipse cx="170" cy="120" rx="55" ry="65" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="2"/>
+  
+  <!-- Olhos simétricos -->
+  <ellipse cx="145" cy="105" rx="11" ry="5.5" fill="#f8f8f8" stroke="#4caf50" stroke-width="1"/>
+  <ellipse cx="195" cy="105" rx="11" ry="5.5" fill="#f8f8f8" stroke="#4caf50" stroke-width="1"/>
+  
+  <!-- Cílios -->
+  <path d="M134,100 L132,98" stroke="#4caf50" stroke-width="1"/>
+  <path d="M140,99 L138,97" stroke="#4caf50" stroke-width="1"/>
+  <path d="M146,99 L148,97" stroke="#4caf50" stroke-width="1"/>
+  <path d="M152,100 L154,98" stroke="#4caf50" stroke-width="1"/>
+  <path d="M184,100 L182,98" stroke="#4caf50" stroke-width="1"/>
+  <path d="M190,99 L188,97" stroke="#4caf50" stroke-width="1"/>
+  <path d="M196,99 L198,97" stroke="#4caf50" stroke-width="1"/>
+  <path d="M202,100 L204,98" stroke="#4caf50" stroke-width="1"/>
+  
+  <!-- Boca simétrica -->
+  <path d="M145,150 Q170,165 195,150" stroke="#4caf50" stroke-width="2" fill="none"/>
+  
+  <!-- Nariz -->
+  <path d="M170,115 L167,135 Q170,140 173,135 Z" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+  
+  <!-- Contorno facial -->
+  <path d="M120,120 Q130,170 170,190 Q210,170 220,120" stroke="#a5d6a7" stroke-width="1" fill="none"/>
+  
+  <!-- Brilho -->
+  <circle cx="200" cy="90" r="5" fill="#81c784"/>
+  <circle cx="210" cy="100" r="3" fill="#81c784"/>
+  
+  <!-- Título -->
+  <text x="170" y="200" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#2e7d32">Harmonia Facial Perfeita</text>
+  
+  <!-- Descrição -->
+  <text x="170" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">Contornos faciais equilibrados, volume</text>
+  <text x="170" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">distribuído harmonicamente e aparência</text>
+  <text x="170" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">rejuvenescida e natural.</text>
+</svg>
